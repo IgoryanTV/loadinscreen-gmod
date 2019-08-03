@@ -1,26 +1,13 @@
-@font-face
-  {
-	font-family: "Capture it"; /* Гарнитура шрифта */
-    src: url(fonts/captureit.ttf) format('truetype'); /* Путь к файлу со шрифтом */
-  }
-html {
-    font-family: "Capture it" !important; /*Specify your font name here*/
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-
 body {
     background-image: url("https://dottiest-oak.000webhostapp.com/images/background.jpg");
     background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
-    font-family: "Capture it" !important; /*Specify your font name here*/
 }
 
 #login {
     background-color: #626262;
     border-radius: 0 0 10px 10px;
-    font-family: "Capture it";
     font-size: 36px;
     text-align: center;
     border-right: solid 10px #313131;
@@ -32,7 +19,6 @@ body {
     margin-top: 0px;
     background-color: #626262;
     border-radius: 10px 10px 0 0;
-    font-family: "Capture it" !important;
     font-size: 35px;
     border-top: solid 10px #313131;
     border-left: solid 10px #313131;
@@ -54,7 +40,6 @@ body {
 #main2 {
     background-color: #626262;
     border-radius: 0 0 10px 10px;
-    font-family: "Capture it" !important;
     font-size: 35px;
     border-bottom: solid 10px #313131;
     border-left: solid 10px #313131;
