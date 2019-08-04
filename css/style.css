@@ -7,58 +7,57 @@ body {
 
 #login {
     background-color: #626262;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 8px 8px;
     font-size: 36px;
     text-align: center;
-    border-right: solid 10px #313131;
-    border-left: solid 10px #313131;
-    border-bottom: solid 10px #313131;
+    border-right: solid 8px #313131;
+    border-left: solid 8px #313131;
+    border-bottom: solid 8px #313131;
+    width: 1000px;
 }
 
 #main {
-    margin-top: 0px;
     background-color: #626262;
-    border-radius: 10px 10px 0 0;
-    font-size: 35px;
-    border-top: solid 10px #313131;
-    border-left: solid 10px #313131;
-    border-right: solid 10px #313131;
-    width: 950px;
+    border-radius: 8px;
+    border: solid 8px #313131;
+    width: 900px;
+    margin: auto;
 }
 
-#admintext {
-    border-right: solid 1px #313131;
-    border-bottom:  solid 1px #313131;
-    text-align: center; 
+#adminheader{
+    text-align: center;
+    width: 320px;
+    font-size: 35px;
+    border-color: #313131;
 }
 
 #ruleheader {
     text-align: center;
-    border-bottom:  solid 1px #313131;
-}
-
-#main2 {
-    background-color: #626262;
-    border-radius: 0 0 10px 10px;
     font-size: 35px;
-    border-bottom: solid 10px #313131;
-    border-left: solid 10px #313131;
-    border-right: solid 10px #313131;
-    width: 950px;
-}
-
-#admins {
-    border-right: solid 1px #313131;
+    border-color: #313131;
 }
 
 #welcome {
     text-align: center;
 	color: #626262;
-	font-size: 50px;
+	font-size: 46px;
 }
 
 #welcome2 {
     text-align: center;
 	color: #626262;
-	font-size: 50px;
+	font-size: 46px;
+}
+
+#ruletext {
+    font-size: 30px;   
+}
+
+#tbodytable {
+    font-size: 30px;
+    border-color: #313131
+}
+
+#test {
+    border-color: #313131
 }
